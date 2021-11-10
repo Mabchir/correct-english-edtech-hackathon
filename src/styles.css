@@ -1,8 +1,8 @@
 :root {
   --font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  --background-colorW: white;
-  --background-colorB: black;
+  --background-colorW: rgba(255, 255, 255, 0.89);
+  --background-colorB: rgba(0, 0, 0, 0.61);
   --text-colorW: White;
   --text-colorB: Black;
 }
@@ -17,7 +17,9 @@ body {
   margin-top: 100px;
 }
 
-.whole .container {
+.whole .active,
+.whole .completed,
+.whole .future {
   margin: 50px;
   border-radius: 10px;
   background-color: var(--background-colorB);
@@ -49,6 +51,7 @@ body {
 }
 .whole .grid {
   margin: 0px;
+  padding: 0px;
 }
 
 .btn {
