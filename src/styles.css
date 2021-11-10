@@ -1,0 +1,75 @@
+:root {
+  --font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --background-colorW: white;
+  --background-colorB: black;
+  --text-colorW: White;
+  --text-colorB: Black;
+}
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-colorW);
+}
+.bg-light {
+  background-color: var(--background-colorW) !important;
+}
+.whole {
+  margin-top: 100px;
+}
+
+.whole .container {
+  margin: 50px;
+  border-radius: 10px;
+  background-color: var(--background-colorB);
+}
+
+.whole h1 {
+  margin-bottom: 0px;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: var(--text-colorW);
+}
+
+.whole hr {
+  margin: 0px;
+  border-top: 2px solid var(--text-colorW);
+}
+
+.whole .card {
+  margin: 40px;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+.whole .card:hover {
+  -moz-box-shadow: 0 0 10px white;
+  -webkit-box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white;
+}
+.whole .grid {
+  margin: 0px;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: var(--background-colorB);
+  border-color: var(--background-colorB);
+}
+
+.btn:hover {
+  background-color: var(--background-colorW);
+  color: var(--text-colorB);
+  border-color: var(--background-colorB);
+}
+
+.whole img {
+  width: 200px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.whole .card-title {
+  margin: 10px;
+}
