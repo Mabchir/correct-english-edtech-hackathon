@@ -1,10 +1,17 @@
 body {
   background-color: #dcd8d8;
 }
-.container h1 {
-  margin: 20px;
+.container {
+  margin: 30px;
+}
+.container .title h1 {
+  display: block;
+  margin: auto;
   text-align: center;
-  background-color: #f9a322;
+  background-color: #f9a322 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
 }
 
 .container ul {
@@ -12,6 +19,7 @@ body {
 }
 .col {
   text-align: center;
+  margin: 20px;
 }
 
 ul {
@@ -41,8 +49,8 @@ button:hover {
   background-color: black;
   color: white;
 }
-.content h5 {
-  margin-top: 20px;
+h5 {
+  margin: 20px !important;
 }
 
 .yes,
@@ -59,6 +67,7 @@ button:hover {
   background-color: red;
 }
 
-.tasks {
+#tasks {
+  display: none;
   margin: 20px;
 }

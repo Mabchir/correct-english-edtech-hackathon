@@ -20,8 +20,8 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col"><h1>Your</h1></div>
-        <div class="col"><h1>Course</h1></div>
+        <div class="col justify-content-center title"><h1>Your</h1></div>
+        <div class="col justify-content-center title"><h1>Course</h1></div>
       </div>
 
       <div class="row">
@@ -57,11 +57,11 @@
           <button>Test</button>
           <h5>Would you like to practice more?</h5>
 
-          <button class="yes">Yes</button>
-          <button class="no">No</button>
+          <button class="yes" onclick="showtask()">Yes</button>
+          <button class="no" onclick="hidetask()">No</button>
 
           <br />
-          <div class="tasks">
+          <div id="tasks">
             <button>Additional Task #1</button>
             <button>Additional Task #2</button>
           </div>
