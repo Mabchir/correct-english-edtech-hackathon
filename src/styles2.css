@@ -1,0 +1,52 @@
+body {
+  background-color: #dcd8d8;
+}
+.container h1 {
+  margin: 20px;
+  text-align: center;
+  background-color: #f9a322;
+  width: 400px;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container li {
+  border: 2px solid black;
+  text-align: center;
+  margin: 20px;
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.content h5 {
+  margin-top: 20px;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.yesno button {
+  border-radius: 100px;
+}
+
+.yes {
+  border-radius: 100px;
+  background-color: #18b815;
+}
+
+.no {
+  border-radius: 100px;
+  background-color: red;
+}
+
+.video {
+}
