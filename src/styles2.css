@@ -21,6 +21,11 @@ body {
   background-color: white;
 }
 
+.container li:hover {
+  -moz-box-shadow: 0 0 10px white;
+  -webkit-box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white;
+}
 .container .content {
   text-align: center;
 }
@@ -33,8 +38,13 @@ button {
   border-radius: 5px;
 }
 
-.yesno button {
-  border-radius: 100px;
+button:hover {
+  -moz-box-shadow: 0 0 10px white;
+  -webkit-box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white;
+}
+.yesno button:hover {
+  font-size: 18px;
 }
 
 .yes {
@@ -45,7 +55,4 @@ button {
 .no {
   border-radius: 100px;
   background-color: red;
-}
-
-.video {
 }
