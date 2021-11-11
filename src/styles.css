@@ -1,78 +1,91 @@
-:root {
-  --font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  --background-colorW: rgba(255, 255, 255, 0.89);
-  --background-colorB: rgba(0, 0, 0, 0.61);
-  --text-colorW: White;
-  --text-colorB: Black;
-}
 body {
-  font-family: var(--font-family);
-  background-color: var(--background-colorW);
+  background-color: #dcd8d8;
 }
-.bg-light {
-  background-color: var(--background-colorW) !important;
+.container {
+  margin: 30px;
 }
-.whole {
-  margin-top: 100px;
-}
-
-.whole .active,
-.whole .completed,
-.whole .future {
-  margin: 50px;
-  border-radius: 10px;
-  background-color: var(--background-colorB);
-}
-
-.whole h1 {
-  margin-bottom: 0px;
-  font-size: 30px;
-  padding-top: 20px;
-  padding-left: 10px;
-  color: var(--text-colorW);
-}
-
-.whole hr {
-  margin: 0px;
-  border-top: 2px solid var(--text-colorW);
-}
-
-.whole .card {
-  margin: 40px;
-  border-radius: 25px;
+.container .title h1 {
+  display: block;
+  margin: auto;
   text-align: center;
+  background-color: #f9a322 !important;
   padding-top: 20px;
-}
-.whole .card:hover {
-  -moz-box-shadow: 0 0 10px white;
-  -webkit-box-shadow: 0 0 10px white;
-  box-shadow: 0 0 10px white;
-}
-.whole .grid {
-  margin: 0px;
-  padding: 0px;
+  padding-bottom: 20px;
+  width: 300px;
 }
 
-.btn {
-  border-radius: 20px;
-  background-color: var(--background-colorB);
-  border-color: var(--background-colorB);
+.container ul {
+  list-style-type: none;
+}
+.col {
+  text-align: center;
+  margin: 20px;
 }
 
-.btn:hover {
-  background-color: var(--background-colorW);
-  color: var(--text-colorB);
-  border-color: var(--background-colorB);
+ul {
+  display: block;
+  margin: auto;
+}
+.container li {
+  border: 2px solid black;
+  text-align: center;
+  margin: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  font-size: 20px;
+  width: 300px;
 }
 
-.whole img {
-  width: 200px;
+button {
+  margin: 10px;
+}
+
+iframe {
   border-radius: 10px;
+}
+.container li:hover,
+button:hover {
+  background-color: black;
+  color: white;
+}
+h5 {
+  margin: 20px !important;
+}
+
+.yes,
+.no {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.yes {
+  background-color: #18b815;
+}
+.no {
+  background-color: red;
+}
+
+#tasks {
+  display: none;
+  margin: 20px;
+}
+
+.home img {
   display: block;
   margin: auto;
 }
 
-.whole .card-title {
-  margin: 10px;
+h2 {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  width: fit-content;
+  margin-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 75px;
+  padding-right: 75px;
+  background-color: white;
 }
