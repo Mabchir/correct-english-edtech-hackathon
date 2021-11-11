@@ -10,15 +10,23 @@ body {
 .container ul {
   list-style-type: none;
 }
+.col {
+  text-align: center;
+}
 
+ul {
+  display: block;
+  margin: auto;
+}
 .container li {
   border: 2px solid black;
   text-align: center;
-  margin: 20px;
-  width: 200px;
+  margin: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: white;
+  font-size: 20px;
+  width: 300px;
 }
 
 button {
@@ -33,10 +41,6 @@ button:hover {
   background-color: black;
   color: white;
 }
-.container .content {
-  text-align: center;
-}
-
 .content h5 {
   margin-top: 20px;
 }
