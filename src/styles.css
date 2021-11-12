@@ -4,10 +4,12 @@
   --buttonColor: #22a821;
 }
 body {
+  text-align: center;
   font-family: var(--font);
 }
 .container {
-  margin: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 
   text-align: center;
 }
