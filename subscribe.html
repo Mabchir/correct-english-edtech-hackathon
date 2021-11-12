@@ -18,19 +18,39 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <div class="container home">
+    <div class="container login">
       <img src="img/logo.png" />
+      <h2>Subscribe for our newsletter for discounts and more information</h2>
 
-      <h1>
-        Ваш проводник к красивому английскому <img src="img/checkbox.png" />
-      </h1>
-      <h2>Вы участник курса?</h2>
-      <div class="yesno">
-        <a href="login.html"><input type="button" value="YES" class="yes" /></a>
-        <a href="info.html"><input type="button" value="NO" class="no" /></a>
-      </div>
+      <form>
+        <!-- NAme input -->
+        <div class="form-outline mb-4">
+          <input
+            type="name"
+            id="form3Example3"
+            class="form-control form-control-lg"
+            placeholder="Enter Full Name"
+          />
+        </div>
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input
+            type="email"
+            id="form3Example3"
+            class="form-control form-control-lg"
+            placeholder="Enter a valid email address"
+          />
+        </div>
+
+        <div class="text-center text-lg-start mt-4 pt-2">
+          <a href="checkpoint2.html"
+            ><input type="button" value="Subscribe" class="next"
+          /></a>
+        </div>
+      </form>
     </div>
     <script src="src/script.js"></script>
+
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
