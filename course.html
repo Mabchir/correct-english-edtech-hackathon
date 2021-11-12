@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container course">
       <div class="row">
         <div class="col justify-content-center title"><h1>YOUR</h1></div>
         <div class="col justify-content-center title"><h1>COURSE</h1></div>
@@ -39,52 +39,76 @@
           </ul>
         </div>
         <div class="col">
-          <h5>What do you already know ?</h5>
+          <div class="section">
+            <h5><span class="question">1</span>What do you already know ?</h5>
 
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSddauOC6yno6pZtNY0tdIipuw31jABSFuROLzyyBEXd1TkK0g/viewform?usp=sf_link"
-            target="blank"
-            ><input type="button" value="Pre-test"
-          /></a>
-          <h5>Are you ready to study?</h5>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/iqKpUf_EJ9E"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-
-          <div class="algo"><h5>Interactive Algorithm goes here</h5></div>
-          <h5>Test your knowledge!</h5>
-
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdUaPXCbwiOB4F6g5g_9CJuwnDpd-e7oC9VwXbqyByn1dpOOw/viewform?usp=sf_link"
-            target="blank"
-            ><input type="button" value="Test"
-          /></a>
-          <h5>Would you like to practice more?</h5>
-
-          <button class="yes" onclick="showtask()">Yes</button>
-          <button class="no" onclick="hidetask()">No</button>
-
-          <br />
-          <div id="tasks">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScJp-Smoz8SNWJxeaUAoF2g-eRxCmoKK0f4jOvQKAMDCzG83w/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSddauOC6yno6pZtNY0tdIipuw31jABSFuROLzyyBEXd1TkK0g/viewform?usp=sf_link"
               target="blank"
-              ><input type="button" value="Additional Task #1"
+              ><input type="button" value="Pre-test"
             /></a>
+          </div>
+          <div class="section">
+            <h5><span class="question">2</span>Are you ready to study?</h5>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/iqKpUf_EJ9E"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="section">
+            <h5>
+              <span class="question">3</span>Interactive Algorithm goes here
+            </h5>
+          </div>
+          <div class="section">
+            <h5><span class="question">4</span>Test your knowledge!</h5>
+
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSewq0EnLH0SURPaLcouxzv_1xJdGGBQzQrhXYnRvx2kf7vk6w/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdUaPXCbwiOB4F6g5g_9CJuwnDpd-e7oC9VwXbqyByn1dpOOw/viewform?usp=sf_link"
               target="blank"
-              ><input type="button" value="Additional Task #2"
+              ><input type="button" value="Test"
             /></a>
+          </div>
+          <div class="section">
+            <h5>
+              <span class="question">5</span>Would you like to practice more?
+            </h5>
+            <div class="yesno">
+              <button class="yes" onclick="showtask()">Yes</button>
+              <button class="no" onclick="hidetask()">No</button>
+            </div>
+
+            <br />
+            <div class="task" id="tasks">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScJp-Smoz8SNWJxeaUAoF2g-eRxCmoKK0f4jOvQKAMDCzG83w/viewform?usp=sf_link"
+                target="blank"
+                ><input type="button" value="Additional Task #1"
+              /></a>
+              <br />
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSewq0EnLH0SURPaLcouxzv_1xJdGGBQzQrhXYnRvx2kf7vk6w/viewform?usp=sf_link"
+                target="blank"
+                ><input type="button" value="Additional Task #2"
+              /></a>
+            </div>
           </div>
         </div>
       </div>
+      <button
+        type="button"
+        class="btn btn-success btn-lg"
+        style="padding-left: 2.5rem; padding-right: 2.5rem"
+        onclick="location.href='checkpoint3.html'"
+      >
+        Finished
+      </button>
     </div>
     <script src="src/script.js"></script>
     <script

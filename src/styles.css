@@ -3,9 +3,12 @@
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --buttonColor: #22a821;
 }
+body {
+  font-family: var(--font);
+}
 .container {
   margin: 70px;
-  font-family: var(--font);
+
   text-align: center;
 }
 
@@ -29,6 +32,11 @@ h3 {
 }
 p {
   font-size: 18px;
+}
+h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 .yesno input {
   font-size: 75px;
@@ -89,4 +97,77 @@ p {
   background-color: white;
   color: var(--buttonColor);
   border: 2px solid var(--buttonColor);
+}
+
+.course h1 {
+  background-color: #f9a322;
+  width: 250px;
+  display: block;
+  margin: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 40px;
+}
+
+.course .row {
+  margin-top: 50px;
+}
+
+.course ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.course li,
+.course input,
+.course .subtitles h1 {
+  border: 1px solid black;
+  width: 250px;
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  background-color: #fffcf7;
+}
+
+.course li:hover,
+.course input:hover,
+.yesno button:hover {
+  background-color: black;
+  color: white;
+}
+
+.course iframe {
+  border-radius: 15px;
+}
+
+.course .yesno button {
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+#tasks {
+  display: none;
+}
+
+.question {
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #5749f9;
+  color: white;
+}
+
+.section {
+  margin: 60px;
 }
