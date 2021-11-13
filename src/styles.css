@@ -56,15 +56,31 @@ h5 {
   background-color: #ff0000;
 }
 
+.yesno input:hover,
+.yesno button:hover {
+  background-color: white;
+}
+
+.yes:hover {
+  color: #22a821;
+  border-color: #22a821;
+}
+.no:hover {
+  color: rgba(255, 0, 0, 0.671);
+  border-color: rgba(255, 0, 0, 0.671);
+}
 .login form {
   width: 400px;
   display: block;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .login form button {
   display: block;
   margin: auto;
+}
+.login h2 {
+  margin-top: 40px;
 }
 
 .info .explanation {
@@ -134,8 +150,7 @@ h5 {
 }
 
 .course li:hover,
-.course input:hover,
-.yesno button:hover {
+.course input:hover {
   background-color: black;
   color: white;
 }
@@ -160,16 +175,46 @@ h5 {
   border: 1px solid black;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   margin-right: 15px;
-  background-color: #5749f9;
+  background-color: #0000ff;
   color: white;
 }
 
 .section {
   margin: 60px;
+}
+
+.dashboard .subtitles h1 {
+  font-size: 45px !important;
+  width: auto !important;
+}
+
+hr {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#hide1,
+#hide2,
+#hide3 {
+  display: none;
+}
+
+#error {
+  display: none;
+}
+
+.course .section .correct p {
+  margin-top: 40px;
 }

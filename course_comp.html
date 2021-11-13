@@ -27,15 +27,15 @@
       <div class="row">
         <div class="col">
           <ul>
-            <li>Comparisons</li>
-            <li>Adjective Endings</li>
-            <li>Modal Verbs</li>
-            <li>Tenses</li>
-            <li>Making Questions</li>
-            <li>Passive Voice</li>
-            <li>Gerund</li>
-            <li>Conditionals</li>
-            <li>Report Speech</li>
+            <a href="/"><li>Comparisons</li></a>
+            <a href="/course_adj.html"><li>Adjective Endings</li></a>
+            <a href="/course_mod.html"><li>Modal Verbs</li> </a>
+            <a href=""><li>Tenses</li> </a>
+            <a href=""><li>Making Questions</li> </a>
+            <a href=""><li>Passive Voice</li> </a>
+            <a href=""><li>Gerund</li> </a>
+            <a href=""><li>Conditionals</li> </a>
+            <a href=""><li>Report Speech</li> </a>
           </ul>
         </div>
         <div class="col">
@@ -62,9 +62,47 @@
           </div>
 
           <div class="section">
-            <h5>
-              <span class="question">3</span>Interactive Algorithm goes here
-            </h5>
+            <h5></h5>
+
+            <button onclick="handlehide1()">
+              Пройти алгоритм самостоятельно
+            </button>
+
+            <div id="hide1">
+              <h6><span class="question">?</span>Определи степерь сравнения</h6>
+              <div class="row">
+                <div class="col">
+                  <button onclick="handlehide1right()">
+                    сравнительная степень
+                  </button>
+                </div>
+                <div class="col">
+                  <button onclick="handlehide1wrong()" id="hide1wrong">
+                    превосходная степерь
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div id="hide2">
+              <h6>
+                <span class="question">?</span>В прилагательном один слог?
+              </h6>
+              <div class="yesno">
+                <button class="yes" onclick="handlehide2yes()">Yes</button>
+                <button class="no" onclick="handlehide2no()">No</button>
+              </div>
+              <p id="error">подумай ещё :)</p>
+            </div>
+            <div class="correct" id="hide3">
+              <h2><img src="img/checkbox.png" />Correct</h2>
+              <h2>Jane is higher than Mary</h2>
+              <p>
+                Это сравнительная степень, потому что сравниваем Джейн с другим
+                человеком (а не с группой людей) <br />В прилагательном high
+                (высокий) один слог, поэтому добавляем окончание _er к этому
+                слову
+              </p>
+            </div>
           </div>
           <div class="section">
             <h5><span class="question">4</span>Test your knowledge!</h5>
